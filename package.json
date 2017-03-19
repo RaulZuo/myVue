@@ -1,0 +1,33 @@
+{
+  "name": "my-vue",
+  "version": "1.0.0",
+  "description": "analyze MVVM of Vue",
+  "main": "app/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app/index.js",
+    "build": "babel src -d app",
+    "webpack": "webpack"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.0",
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.1",
+    "babel-preset-es2015": "^6.24.0",
+    "webpack": "^1.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RaulZuo/myVue.git"
+  },
+  "keywords": [
+    "Vue",
+    "MVVM"
+  ],
+  "author": "RaulZuo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RaulZuo/myVue/issues"
+  },
+  "homepage": "https://github.com/RaulZuo/myVue#readme"
+}
